@@ -225,6 +225,15 @@ tbody tr:last-of-type {
   h1 {
     font-size: 4.2rem;
   }
+  article {
+    padding: 0px 0.8em 0 0.6em;
+  }
+  article > p:nth-child(2) {
+    padding-right: 2em;
+  }
+  article h2 + p {
+    padding-right: 2.4em;
+  }
   table {
     width: 75%;
   }
